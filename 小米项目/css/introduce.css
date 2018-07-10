@@ -1,0 +1,29 @@
+body .container-fluid .main #scroller #banner {
+    background-image: url(../images/logo8.jpg);
+    font-family: KaiTi;
+    background-size: 100% 100%;
+    
+  }
+  body .container-fluid .main #scroller #banner p{
+    text-align:left;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper {
+    background-color: rgb(175, 150, 150);
+    font-family: KaiTi;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .internet header {
+    font-size: 1.8rem;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .internet ol li {
+    list-style-type: decimal;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .internet ol li header {
+    font-size: 1.7rem;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .div-flex p {
+    padding: 20px !important ;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .clothes ol li {
+    padding: 10px 0;
+  }
+  

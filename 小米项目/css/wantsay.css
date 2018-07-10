@@ -1,0 +1,22 @@
+body .container-fluid .main #scroller #banner {
+    background-image: url(../images/logo13.jpg);
+    font-family: KaiTi;
+    background-size: 100% 100%;
+    
+  }
+  body .container-fluid .main #scroller #wrapper .one {
+    background-color: rgb(6, 102, 104);
+    font-family: KaiTi;
+  }
+  body .container-fluid .main #scroller #wrapper .one .inner .content h2{
+    font-family: SimHei;
+    font-size:400%;
+  }
+  body .container-fluid .main #scroller #wrapper .two {
+    background-color: rgb(27, 241, 8);
+    font-family: KaiTi;
+  }
+  body .container-fluid .main #scroller #footer {
+    background-color: rgb(241, 62, 8);
+
+  }

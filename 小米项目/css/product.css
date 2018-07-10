@@ -1,0 +1,268 @@
+@media screen and (min-width: 767px) {
+    html {
+      font-size: 62.5%;
+    }
+    #header {
+      height: 60px;
+      line-height: 60px;
+    }
+    .main {
+      top: 60px;
+    }
+    #banner {
+      padding: 12rem 0 16rem 0;
+    }
+    #banner .row div h1 {
+      font-size: 4rem;
+      letter-spacing: 5px;
+    }
+    #banner .row div p {
+      font-size: 1.6rem;
+      margin-top: 40px;
+      word-spacing: 5px;
+      letter-spacing: 5px;
+    }
+    #wrapper .wrapper .row .inner {
+      display: block;
+    }
+    #wrapper .wrapper .row .inner .div-flex .info {
+      justify-content: space-between;
+    }
+    #wrapper .wrapper .row .inner .div-flex .info article {
+      width: 48%;
+    }
+    #wrapper .wrapper .row .inner .div-flex .info article a {
+      padding: 20px;
+    }
+  }
+  @media screen and (max-width: 766px) {
+    #header {
+      height: 40px;
+      line-height: 40px;
+    }
+    .main {
+      top: 40px;
+    }
+    #banner {
+      padding: 6rem 0 12rem 0;
+    }
+    #banner .row div {
+      width: 90%;
+    }
+    #banner .row div h1 {
+      font-size: 3rem;
+      letter-spacing: 0;
+    }
+    #banner .row div p {
+      font-size: 1.6rem;
+      margin-top: 20px;
+      letter-spacing: 0px;
+    }
+    html {
+      font-size: 62.5%;
+    }
+    #wrapper .wrapper .row .inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #wrapper .wrapper .row .inner section {
+      width: 75%;
+    }
+    #wrapper .wrapper .row .inner section article a {
+      padding: 10px;
+    }
+    #wrapper .wrapper .row .inner .div-flex h3 {
+      width: 100%;
+    }
+    #wrapper .wrapper .row .inner .div-flex .info {
+      justify-content: center;
+    }
+    #wrapper .wrapper .row .inner .div-flex .info article {
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 641px) {
+    .triangle-bottom {
+      top: -100px;
+      border-bottom-width: 100px;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    #banner {
+      padding: 6rem 0 8rem 0;
+    }
+    html {
+      font-size: 55%;
+    }
+    #wrapper .wrapper .row .inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #wrapper .wrapper .row .inner section {
+      width: 80%;
+    }
+    #wrapper .wrapper .row .inner section article a {
+      padding: 10px;
+    }
+    .triangle-bottom {
+      top: -40px;
+      border-bottom-width: 40px;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    html {
+      font-size: 50%;
+    }
+    #wrapper .wrapper .row .inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #wrapper .wrapper .row .inner section {
+      width: 90%;
+    }
+  }
+  body {
+    font-family: "Source Sans Pro", Helvetica, sans-serif, "Microsoft YaHei", STXihei, serif;
+  }
+  body a {
+    color: #fff;
+    text-decoration: none;
+  }
+  body a:hover,
+  body a:active,
+  body a:link,
+  body a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  body .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+  body .container-fluid {
+    color: #ffffff;
+    padding: 0;
+    font-size: 1.6rem;
+  }
+  body .container-fluid > header {
+    background-color: rgba(162, 153, 153, 0.5);
+    padding: 0 30px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+  }
+  body .container-fluid > header a {
+    display: inline-block;
+  }
+  body .container-fluid > header a:last-child {
+    float: right;
+  }
+  body .container-fluid > header a:last-child span i {
+    margin-left: 10px;
+  }
+  body .container-fluid .main {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 999;
+  }
+  body .container-fluid .main #scroller {
+    position: absolute;
+    z-index: 999;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+  body .container-fluid .main #scroller #banner {
+    background-size: 100% 100%;
+    background-position: center, center;
+    background-image: url(../images/logo4.jpg);
+  }
+  body .container-fluid .main #scroller #banner .row {
+    display: flex;
+    justify-content: center;
+  }
+  body .container-fluid .main #scroller #banner .row h1 {
+    font-weight: bold;
+  }
+  body .container-fluid .main #scroller #banner .row p {
+    font-weight: bold;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper {
+    position: relative;
+    background-color: #f87800;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .row {
+    display: flex;
+    justify-content: center;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .row .inner {
+    padding: 48px 0 16px 0;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .row .inner section p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    padding: 10px 20px 30px 20px;
+    margin: 0;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .row .inner section h3 {
+    font-size: 2.4rem;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .row .inner .div-flex .info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 100%;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .row .inner .div-flex .info article {
+    background-color: #ec3902;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .row .inner .div-flex .info article a {
+    display: block;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .row .inner .div-flex .info article a img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .row .inner .div-flex .info article h4 {
+    padding: 30px 0;
+    font-size: 2.4rem;
+    margin: 10px 20px;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .row .inner .div-flex .info article p {
+    padding: 30px 20px;
+  }
+  body .container-fluid .main #scroller #wrapper .wrapper .row .inner .div-flex .info article p a {
+    display: inline;
+  }
+  
